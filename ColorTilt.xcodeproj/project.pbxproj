@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E43A25714ECAB2F00BC0C41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E43A25614ECAB2F00BC0C41 /* UIKit.framework */; };
+		4E43A25914ECAB2F00BC0C41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E43A25814ECAB2F00BC0C41 /* Foundation.framework */; };
+		4E43A25B14ECAB2F00BC0C41 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E43A25A14ECAB2F00BC0C41 /* CoreGraphics.framework */; };
+		4E43A26114ECAB2F00BC0C41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E43A25F14ECAB2F00BC0C41 /* InfoPlist.strings */; };
+		4E43A26314ECAB2F00BC0C41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E43A26214ECAB2F00BC0C41 /* main.m */; };
+		4E43A26714ECAB2F00BC0C41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E43A26614ECAB2F00BC0C41 /* AppDelegate.m */; };
+		4E43A26A14ECAB2F00BC0C41 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E43A26814ECAB2F00BC0C41 /* MainStoryboard_iPhone.storyboard */; };
+		4E43A26D14ECAB2F00BC0C41 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E43A26B14ECAB2F00BC0C41 /* MainStoryboard_iPad.storyboard */; };
+		4E43A27014ECAB2F00BC0C41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E43A26F14ECAB2F00BC0C41 /* ViewController.m */; };
+		4E43A27814ECAB2F00BC0C41 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E43A27714ECAB2F00BC0C41 /* SenTestingKit.framework */; };
+		4E43A27914ECAB2F00BC0C41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E43A25614ECAB2F00BC0C41 /* UIKit.framework */; };
+		4E43A27A14ECAB2F00BC0C41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E43A25814ECAB2F00BC0C41 /* Foundation.framework */; };
+		4E43A28214ECAB2F00BC0C41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E43A28014ECAB2F00BC0C41 /* InfoPlist.strings */; };
+		4E43A28514ECAB2F00BC0C41 /* ColorTiltTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E43A28414ECAB2F00BC0C41 /* ColorTiltTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E43A27B14ECAB2F00BC0C41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E43A24914ECAB2F00BC0C41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E43A25114ECAB2F00BC0C41;
+			remoteInfo = ColorTilt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E43A25214ECAB2F00BC0C41 /* ColorTilt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorTilt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E43A25614ECAB2F00BC0C41 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4E43A25814ECAB2F00BC0C41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E43A25A14ECAB2F00BC0C41 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4E43A25E14ECAB2F00BC0C41 /* ColorTilt-Info.plist */ = {isa = PBXFileReference; path = "ColorTilt-Info.plist"; sourceTree = "<group>"; };
+		4E43A26014ECAB2F00BC0C41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E43A26214ECAB2F00BC0C41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E43A26414ECAB2F00BC0C41 /* ColorTilt-Prefix.pch */ = {isa = PBXFileReference; path = "ColorTilt-Prefix.pch"; sourceTree = "<group>"; };
+		4E43A26514ECAB2F00BC0C41 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E43A26614ECAB2F00BC0C41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E43A26914ECAB2F00BC0C41 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		4E43A26C14ECAB2F00BC0C41 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		4E43A26E14ECAB2F00BC0C41 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		4E43A26F14ECAB2F00BC0C41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E43A27614ECAB2F00BC0C41 /* ColorTiltTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorTiltTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E43A27714ECAB2F00BC0C41 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4E43A27F14ECAB2F00BC0C41 /* ColorTiltTests-Info.plist */ = {isa = PBXFileReference; path = "ColorTiltTests-Info.plist"; sourceTree = "<group>"; };
+		4E43A28114ECAB2F00BC0C41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E43A28314ECAB2F00BC0C41 /* ColorTiltTests.h */ = {isa = PBXFileReference; path = ColorTiltTests.h; sourceTree = "<group>"; };
+		4E43A28414ECAB2F00BC0C41 /* ColorTiltTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorTiltTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E43A24F14ECAB2F00BC0C41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E43A25714ECAB2F00BC0C41 /* UIKit.framework in Frameworks */,
+				4E43A25914ECAB2F00BC0C41 /* Foundation.framework in Frameworks */,
+				4E43A25B14ECAB2F00BC0C41 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E43A27214ECAB2F00BC0C41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E43A27814ECAB2F00BC0C41 /* SenTestingKit.framework in Frameworks */,
+				4E43A27914ECAB2F00BC0C41 /* UIKit.framework in Frameworks */,
+				4E43A27A14ECAB2F00BC0C41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E43A24714ECAB2F00BC0C41 = {
+			isa = PBXGroup;
+			children = (
+				4E43A25C14ECAB2F00BC0C41 /* ColorTilt */,
+				4E43A27D14ECAB2F00BC0C41 /* ColorTiltTests */,
+				4E43A25514ECAB2F00BC0C41 /* Frameworks */,
+				4E43A25314ECAB2F00BC0C41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E43A25314ECAB2F00BC0C41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E43A25214ECAB2F00BC0C41 /* ColorTilt.app */,
+				4E43A27614ECAB2F00BC0C41 /* ColorTiltTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E43A25514ECAB2F00BC0C41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E43A25614ECAB2F00BC0C41 /* UIKit.framework */,
+				4E43A25814ECAB2F00BC0C41 /* Foundation.framework */,
+				4E43A25A14ECAB2F00BC0C41 /* CoreGraphics.framework */,
+				4E43A27714ECAB2F00BC0C41 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E43A25C14ECAB2F00BC0C41 /* ColorTilt */ = {
+			isa = PBXGroup;
+			children = (
+				4E43A26514ECAB2F00BC0C41 /* AppDelegate.h */,
+				4E43A26614ECAB2F00BC0C41 /* AppDelegate.m */,
+				4E43A26814ECAB2F00BC0C41 /* MainStoryboard_iPhone.storyboard */,
+				4E43A26B14ECAB2F00BC0C41 /* MainStoryboard_iPad.storyboard */,
+				4E43A26E14ECAB2F00BC0C41 /* ViewController.h */,
+				4E43A26F14ECAB2F00BC0C41 /* ViewController.m */,
+				4E43A25D14ECAB2F00BC0C41 /* Supporting Files */,
+			);
+			path = ColorTilt;
+			sourceTree = "<group>";
+		};
+		4E43A25D14ECAB2F00BC0C41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E43A25E14ECAB2F00BC0C41 /* ColorTilt-Info.plist */,
+				4E43A25F14ECAB2F00BC0C41 /* InfoPlist.strings */,
+				4E43A26214ECAB2F00BC0C41 /* main.m */,
+				4E43A26414ECAB2F00BC0C41 /* ColorTilt-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E43A27D14ECAB2F00BC0C41 /* ColorTiltTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E43A28314ECAB2F00BC0C41 /* ColorTiltTests.h */,
+				4E43A28414ECAB2F00BC0C41 /* ColorTiltTests.m */,
+				4E43A27E14ECAB2F00BC0C41 /* Supporting Files */,
+			);
+			path = ColorTiltTests;
+			sourceTree = "<group>";
+		};
+		4E43A27E14ECAB2F00BC0C41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E43A27F14ECAB2F00BC0C41 /* ColorTiltTests-Info.plist */,
+				4E43A28014ECAB2F00BC0C41 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E43A25114ECAB2F00BC0C41 /* ColorTilt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E43A28814ECAB2F00BC0C41 /* Build configuration list for PBXNativeTarget "ColorTilt" */;
+			buildPhases = (
+				4E43A24E14ECAB2F00BC0C41 /* Sources */,
+				4E43A24F14ECAB2F00BC0C41 /* Frameworks */,
+				4E43A25014ECAB2F00BC0C41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorTilt;
+			productName = ColorTilt;
+			productReference = 4E43A25214ECAB2F00BC0C41 /* ColorTilt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E43A27514ECAB2F00BC0C41 /* ColorTiltTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E43A28B14ECAB2F00BC0C41 /* Build configuration list for PBXNativeTarget "ColorTiltTests" */;
+			buildPhases = (
+				4E43A27114ECAB2F00BC0C41 /* Sources */,
+				4E43A27214ECAB2F00BC0C41 /* Frameworks */,
+				4E43A27314ECAB2F00BC0C41 /* Resources */,
+				4E43A27414ECAB2F00BC0C41 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E43A27C14ECAB2F00BC0C41 /* PBXTargetDependency */,
+			);
+			name = ColorTiltTests;
+			productName = ColorTiltTests;
+			productReference = 4E43A27614ECAB2F00BC0C41 /* ColorTiltTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E43A24914ECAB2F00BC0C41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4E43A24C14ECAB2F00BC0C41 /* Build configuration list for PBXProject "ColorTilt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E43A24714ECAB2F00BC0C41;
+			productRefGroup = 4E43A25314ECAB2F00BC0C41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E43A25114ECAB2F00BC0C41 /* ColorTilt */,
+				4E43A27514ECAB2F00BC0C41 /* ColorTiltTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E43A25014ECAB2F00BC0C41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E43A26114ECAB2F00BC0C41 /* InfoPlist.strings in Resources */,
+				4E43A26A14ECAB2F00BC0C41 /* MainStoryboard_iPhone.storyboard in Resources */,
+				4E43A26D14ECAB2F00BC0C41 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E43A27314ECAB2F00BC0C41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E43A28214ECAB2F00BC0C41 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E43A27414ECAB2F00BC0C41 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E43A24E14ECAB2F00BC0C41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E43A26314ECAB2F00BC0C41 /* main.m in Sources */,
+				4E43A26714ECAB2F00BC0C41 /* AppDelegate.m in Sources */,
+				4E43A27014ECAB2F00BC0C41 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E43A27114ECAB2F00BC0C41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E43A28514ECAB2F00BC0C41 /* ColorTiltTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E43A27C14ECAB2F00BC0C41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E43A25114ECAB2F00BC0C41 /* ColorTilt */;
+			targetProxy = 4E43A27B14ECAB2F00BC0C41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E43A25F14ECAB2F00BC0C41 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E43A26014ECAB2F00BC0C41 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4E43A26814ECAB2F00BC0C41 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E43A26914ECAB2F00BC0C41 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4E43A26B14ECAB2F00BC0C41 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E43A26C14ECAB2F00BC0C41 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4E43A28014ECAB2F00BC0C41 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E43A28114ECAB2F00BC0C41 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E43A28614ECAB2F00BC0C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E43A28714ECAB2F00BC0C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E43A28914ECAB2F00BC0C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorTilt/ColorTilt-Prefix.pch";
+				INFOPLIST_FILE = "ColorTilt/ColorTilt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E43A28A14ECAB2F00BC0C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorTilt/ColorTilt-Prefix.pch";
+				INFOPLIST_FILE = "ColorTilt/ColorTilt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4E43A28C14ECAB2F00BC0C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ColorTilt.app/ColorTilt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorTilt/ColorTilt-Prefix.pch";
+				INFOPLIST_FILE = "ColorTiltTests/ColorTiltTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4E43A28D14ECAB2F00BC0C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ColorTilt.app/ColorTilt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorTilt/ColorTilt-Prefix.pch";
+				INFOPLIST_FILE = "ColorTiltTests/ColorTiltTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E43A24C14ECAB2F00BC0C41 /* Build configuration list for PBXProject "ColorTilt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E43A28614ECAB2F00BC0C41 /* Debug */,
+				4E43A28714ECAB2F00BC0C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E43A28814ECAB2F00BC0C41 /* Build configuration list for PBXNativeTarget "ColorTilt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E43A28914ECAB2F00BC0C41 /* Debug */,
+				4E43A28A14ECAB2F00BC0C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E43A28B14ECAB2F00BC0C41 /* Build configuration list for PBXNativeTarget "ColorTiltTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E43A28C14ECAB2F00BC0C41 /* Debug */,
+				4E43A28D14ECAB2F00BC0C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E43A24914ECAB2F00BC0C41 /* Project object */;
+}
